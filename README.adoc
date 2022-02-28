@@ -1,0 +1,37 @@
+== What does this application do?
+
+This is a simple scala (sbt) based application to use spark context and we will study the effect of different regularizations with respect to different hyper-parameters by building a linear regression model for the data file
+
+Note: The program is supplied with a sample_linear_regression_data.txt file to perform the operation. However, the file is not uploaded in the repo due to memory constraints.
+
+
+== Technical Details
+- Scala Documentation: link:https://docs.scala-lang.org/[Scala]
+- Version control: git
+- Build automation: scala build tool (sbt)
+
+
+
+== Developer Guide to run the code locally
+==== `git clone https://github.com/kalyansagi/linear-regression-model.git`
+
+==== `cd /linear-regression-model`
+
+==== `git checkout main`
+
+==== To compile the project
+[source,bash]
+----
+sbt compile
+----
+
+==== To run the project
+----
+ sbt run
+----
+
+===== OR
+
+==== Simply run the Scala class file on main method.
+
+
